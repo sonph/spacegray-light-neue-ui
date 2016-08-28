@@ -1,13 +1,13 @@
 {
-  "name": "ui-theme-template",
+  "name": "space-light-ui",
   "theme": "ui",
-  "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "version": "0.1.0",
+  "description": "Updated port of the Spacegray light theme.",
   "keywords": [
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/sonph/spacegray-light-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
