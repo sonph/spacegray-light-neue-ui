@@ -11,13 +11,21 @@
     padding: .75em;
     white-space: nowrap;
     max-width: none;
+    color: @text-color-tooltip;
+    background-color: @tooltip-background-color;
+  }
+  &.top .tooltip-arrow {
+    border-top-color: @tooltip-background-color;
+  }
+  &.bottom .tooltip-arrow {
+    border-bottom-color: @tooltip-background-color;
   }
 
   .keystroke {
     padding: .15em .4em;
     margin: 0 -.3em 0 .25em;
     border-radius: max(2px, @component-border-radius / 2);
-    color: @text-color-selected;
-    background: @background-color-selected;
+    color: @text-color;
+    background: @base-background-color;//@background-color-selected;
   }
 }
