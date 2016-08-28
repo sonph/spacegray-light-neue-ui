@@ -7,7 +7,6 @@
 
 .tab-bar {
   background-color: @tab-bar-background-color;
-  border-bottom: 1px solid @base-border-color;
 
   .tab {
     color: @text-color;
@@ -30,18 +29,27 @@
       border-color: @text-color-info;
     }
     &.modified:hover .close-icon {
-      color: currentColor;
+      // Keep the blue color on modified tabs.
+      color: @text-color-info;
     }
 
 
     // Close Icon (the X) -------------------
-    .close-icon:hover {
-      color: @text-color-selected;
+    // Hide by default on unmodified tabs.
+    .close-icon {
+      color: @tab-bar-background-color;
     }
-    &.active .close-icon:hover {
+    // Show on active tab.
+    &.active .close-icon {
       color: @text-color;
     }
-
+    // Show when hover over tab, active or not.
+    &:hover .close-icon {
+      color: @text-color;
+    }
+    .close-icon:hover {
+      color: @text-color-highlight;
+    }
 
     // Dragging -------------------
     // Styles get applied while dragging a tab
