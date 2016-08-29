@@ -1,13 +1,13 @@
 {
-  "name": "space-light-ui",
+  "name": "spacegray-light-neue-ui",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "Updated port of the Spacegray light theme.",
+  "description": "Maintained port of the Spacegray Light theme to Atom.",
   "keywords": [
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/sonph/spacegray-light-ui",
+  "repository": "https://github.com/sonph/spacegray-light-neue-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
