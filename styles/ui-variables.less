@@ -18,21 +18,21 @@
 // "highlight", they're darker text color since we're using a white background.
 @text-color-highlight: darken(@text-color, 20%);
 @text-color-selected: @text-color;
+@text-color-tooltip: hsl(0, 0%, 100%);
 
 // TODO
-@text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
-@text-color-error:   hsl(  9, 100%, 64%);
+@text-color-info: darken(@background-color-info, 10%);
+@text-color-success: darken(@background-color-success, 10%);
+@text-color-warning: darken(@background-color-warning, 10%);
+@text-color-error: darken(@background-color-error, 10%);
 
 // TODO
 // Background colors
-@background-color-info:    hsl(208, 100%, 50%);
-@background-color-success: hsl(160,  70%, 36%);
-@background-color-warning: hsl(32,   60%, 50%);
-@background-color-error:   hsl(0,    70%, 50%);
+@background-color-info:    hsl(208, 80%, 70%);
+@background-color-success: hsl(160, 50%, 50%);
+@background-color-warning: hsl(32, 55%, 65%);
+@background-color-error:   hsl(0, 70%, 70%);
 
-// TODO
 @background-color-highlight: lighten(@base-background-color, 5%);
 @background-color-selected:  hsl(219, 13%, 78%);//lighten(@base-background-color, 10%);
 @app-background-color:       darken(@base-background-color, 5%);
@@ -45,7 +45,6 @@
 @pane-item-background-color: hsl(0, 0%, 100%);
 @pane-item-border-color:     @pane-item-background-color;
 
-// TODO: change all input-background-color to inherit and no borders
 @input-background-color: @app-background-color;
 @input-border-color:     @input-background-color;
 
@@ -55,7 +54,6 @@
 @inset-panel-background-color: lighten(@base-background-color, 4%);;
 @inset-panel-border-color:     @inset-panel-background-color;
 
-// TODO: these
 @panel-heading-background-color: lighten(@base-background-color, 4%);
 @panel-heading-border-color:     @base-border-color;
 
@@ -76,6 +74,8 @@
 
 @tree-view-background-color: @base-background-color;
 @tree-view-border-color:     @tree-view-background-color;
+
+@tooltip-background-color: darken(@base-background-color, 70%);
 
 // Site colors
 @ui-site-color-1: hsl(208, 100%, 50%); // blue
@@ -99,5 +99,3 @@
 
 // Misc
 @component-border-radius: 2px;
-// TODO: remove this and all references to @font-family
-@font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
