@@ -2,7 +2,11 @@
 
 Maintained port of the [Spacegray](http://kkga.github.io/spacegray) Light Sublime Text theme to Atom.
 
+Screenshot on Atom 1.9.9 (Aug 2016):
+
 ![Screenshot](https://raw.githubusercontent.com/sonph/spacegray-light-neue-ui/master/screenshot.png)
+
+Note that this is not a _complete_ port, as I only coded the minimum amount of CSS to get the basic look and feel.
 
 ## Why Yet Another Port?
 
