@@ -21,7 +21,20 @@
 // Used on top of the editor, like the Command Palette.
 
 atom-panel.modal {
-  border: 1px solid @overlay-border-color;
-  border-top: none;
   box-shadow: 0 2px 8px 1px hsla(0,0%,0%,.3);
+  padding-left: 0;
+  padding-right: 0;
+
+  atom-text-editor[mini] {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+  .list-group {
+    overflow: hidden;
+  }
+  // The "no matches found" message.
+  .error-message {
+    padding-left: 10px;
+  }
 }
