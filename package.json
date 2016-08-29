@@ -5,7 +5,9 @@
   "description": "Maintained port of the Spacegray Light theme to Atom.",
   "keywords": [
     "ui",
-    "theme"
+    "theme",
+    "light",
+    "spacegray"
   ],
   "repository": "https://github.com/sonph/spacegray-light-neue-ui",
   "license": "MIT",
