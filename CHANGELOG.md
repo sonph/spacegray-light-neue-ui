@@ -12,3 +12,10 @@
 ## 0.1.3
 * Updated README
 * Padding for loading messages in the modal overlay
+
+## 0.1.4
+* Messed up the apm publish :(
+
+## 0.1.5
+* Fix wrong colors for git modified/untracked files in tree view (#1, #2) -- thanks to @carlosingles
+
