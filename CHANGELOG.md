@@ -19,3 +19,5 @@
 ## 0.1.5
 * Fix wrong colors for git modified/untracked files in tree view (#1, #2) -- thanks to @carlosingles
 
+## 0.1.6
+* Address deprecated less selectors.
